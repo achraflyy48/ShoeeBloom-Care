@@ -16,7 +16,7 @@
 *(Silakan ganti atau tambahkan gambar tangkapan layar web kamu di sini)*
 | Versi Desktop | Versi Mobile |
 |---|---|
-| <img src="https://via.placeholder.com/800x450" width="100%" alt="Desktop Preview"/> | <img src="https://via.placeholder.com/250x450" width="100%" alt="Mobile Preview"/> |
+| <img src="" width="100%" alt="Desktop Preview"/> | <img src="https://via.placeholder.com/250x450" width="100%" alt="Mobile Preview"/> |
 
 ---
 

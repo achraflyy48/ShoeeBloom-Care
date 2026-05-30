@@ -7,7 +7,7 @@
 
 **ShoeBloom Care** adalah sebuah *landing page* modern, responsif, dan berkinerja tinggi yang dirancang untuk jasa layanan perawatan dan cuci sepatu premium. Project ini dibangun menggunakan **Vanilla HTML5, CSS3 dengan pendekatan modern (Flexbox/Grid/Variables), dan Vanilla JavaScript** untuk menyajikan pengalaman pengguna (*user experience*) yang interaktif tanpa bergantung pada *library* pihak ketiga.
 
-🔗 **Live Demo:** [Tulis Tautan Live Demo Kamu di Sini (misal: Vercel/Netlify/GitHub Pages)]
+🔗 **Live Demo:** https://achraflyy48.github.io/ShoeeBloom-Care/
 
 ---
 
@@ -16,7 +16,7 @@
 *(Silakan ganti atau tambahkan gambar tangkapan layar web kamu di sini)*
 | Versi Desktop | Versi Mobile |
 |---|---|
-| <img src="" width="100%" alt="Desktop Preview"/> | <img src="https://via.placeholder.com/250x450" width="100%" alt="Mobile Preview"/> |
+| <img src="assets/desktopreview.png" width="100%" alt="Desktop Preview"/> | <img src="assets/mobilereview.jpeg" width="100%" alt="Mobile Preview"/> |
 
 ---
 
@@ -44,7 +44,10 @@
 ## 📂 Struktur Repositori
 
 ```text
-├── index.html       # File utama dokumen HTML5 (Struktur halaman)
-├── styles.css       # Dokumentasi gaya CSS global, variabel, dan responsivitas
-├── script.js       # Logika interaktivitas (DOM Manipulation, Observer, Timer)
-└── README.md        # Dokumentasi project
+├── assets/
+│   ├── desktopreview.png
+│   └── mobilereview.jpeg
+├── index.html
+├── styles.css
+├── script.js
+└── README.md

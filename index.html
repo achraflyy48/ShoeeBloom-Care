@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShoeBloom Care — Sepatu Bersih, Hidup Lebih Cerah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===========================
+     NAVBAR
+=========================== -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M4 15c0 2.2 1.8 4 4 4h13v-3c-5.2 0-9.1-2.1-10.9-5.3l-.6-1.1c-.4-.7-1.3-.9-2-.5l-2.5 1.5c-.5.3-.9.9-.9 1.5V15z"/>
+            <path fill="currentColor" opacity="0.35" d="M9.5 14.8c1.7 2.2 4.9 3.2 9.5 3.2v1.5H8c-1.4 0-2.5-1.1-2.5-2.5v-1.2l4-1z"/>
+          </svg>
+        </div>
+        <div class="logo-text">ShoeBloom <span>Care</span></div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#penawaran">Promo</a></li>
+        <li><a href="#pricing">Harga</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+        <div class="nav-cta">
+  <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20tanya%20tentang%20jasa%20cuci%20sepatu" target="_blank" class="btn btn-wa" style="padding:11px 22px;font-size:14px;"
+          <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" focusable="false" style="width:18px;height:18px;">
+            <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+            <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+          </svg>
+          Chat WhatsApp
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="#layanan" class="mobile-link">Layanan</a>
+  <a href="#penawaran" class="mobile-link">Promo</a>
+  <a href="#pricing" class="mobile-link">Harga</a>
+  <a href="#testimoni" class="mobile-link">Testimoni</a>
+  <a href="#faq" class="mobile-link">FAQ</a>
+  <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20tanya%20tentang%20jasa%20cuci%20sepatu" target="_blank" class="btn btn-wa" style="margin-top:12px;">💬 Chat WhatsApp</a>
+</div>
+
+<!-- ===========================
+     HERO SECTION
+=========================== -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <!-- Left: Copy -->
+      <div class="hero-copy reveal">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Layanan Cuci Sepatu Premium #1 di Kota
+        </div>
+
+        <h1 class="hero-title">
+          Sepatu <em>Bersih</em>,<br/>
+          Hidup Lebih<br/>
+          <em>Cerah</em>
+        </h1>
+
+        <p class="hero-sub">
+          Percayakan perawatan sepatu kesayanganmu kepada ahlinya. Proses aman, hasil maksimal, pengerjaan cepat — langsung dijemput & diantar ke pintumu.
+        </p>
+
+        <div class="hero-btns">
+          <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20pesan%20jasa%20cuci%20sepatu" target="_blank" class="btn btn-wa">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" focusable="false" style="width:18px;height:18px;">
+              <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+              <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+            </svg>
+            Pesan via WhatsApp
+          </a>
+          <a href="#layanan" class="btn btn-outline">
+            Lihat Layanan →
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">2k<span>+</span></div>
+            <div class="stat-label">Sepatu dibersihkan</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">98<span>%</span></div>
+            <div class="stat-label">Pelanggan puas</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">4.9<span>★</span></div>
+            <div class="stat-label">Rating Google</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Visual -->
+      <div class="hero-visual reveal" style="transition-delay: 0.2s;">
+        <div class="float-badge float-1">
+          <span class="fb-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:20px;height:20px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2c2 2 4 4 6 6-3 6-7 10-13 13-2-2-2-4-1-6C6 9 9 6 12 2Zm6 4-6 6 2 2 6-6-2-2Zm-7 8-2-2-4 4c-1 1-1 2 0 3 1 1 2 1 3 0l3-3Z"/>
+            </svg>
+          </span>
+          <div class="fb-text">
+            <div class="fb-num">Express</div>
+            <div class="fb-desc">Selesai dalam 24 jam</div>
+          </div>
+        </div>
+
+        <div class="hero-card-main">
+          <div class="shoe-illustration">
+          <span style="position:relative;z-index:1;" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:90px;height:90px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M4 15c0 2.2 1.8 4 4 4h13v-3c-5.2 0-9.1-2.1-10.9-5.3l-.6-1.1c-.4-.7-1.3-.9-2-.5l-2.5 1.5c-.5.3-.9.9-.9 1.5V15z"/>
+              <path fill="currentColor" opacity="0.35" d="M9.5 14.8c1.7 2.2 4.9 3.2 9.5 3.2v1.5H8c-1.4 0-2.5-1.1-2.5-2.5v-1.2l4-1z"/>
+            </svg>
+          </span>
+          </div>
+          <div class="card-info">
+            <h4>Deep Clean Professional</h4>
+            <p>Pembersihan menyeluruh dengan produk premium, aman untuk semua material sepatu.</p>
+            <span class="card-badge-green">✓ Produk Hypoallergenic</span>
+          </div>
+        </div>
+
+        <div class="float-badge float-2">
+          <span class="fb-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:20px;height:20px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2l2.9 6.6L22 9.3l-5 4.6 1.5 7-6.5-3.8-6.5 3.8 1.5-7-5-4.6 7.1-.7L12 2Z"/>
+            </svg>
+          </span>
+          <div class="fb-text">
+            <div class="fb-num">4.9/5</div>
+            <div class="fb-desc">Rating pelanggan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     PROMO BANNER
+=========================== -->
+<div id="promo">
+  <div class="container">
+    <div class="promo-inner">
+      <span class="promo-tag">Promo Aktif</span>
+      <div class="promo-text">
+        <strong>Diskon 20%</strong> untuk pelanggan baru — berakhir dalam:
+      </div>
+      <div class="countdown" id="countdown">
+        <div class="cd-item"><div class="cd-num" id="cd-h">00</div><div class="cd-label">Jam</div></div>
+        <span class="cd-sep">:</span>
+        <div class="cd-item"><div class="cd-num" id="cd-m">00</div><div class="cd-label">Menit</div></div>
+        <span class="cd-sep">:</span>
+        <div class="cd-item"><div class="cd-num" id="cd-s">00</div><div class="cd-label">Detik</div></div>
+      </div>
+      <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20klaim%20promo%20diskon%2020%25" target="_blank" class="promo-cta">Klaim Sekarang →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===========================
+     LAYANAN SECTION
+=========================== -->
+<section id="layanan">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Layanan Kami</span>
+      <h2 class="section-title">Solusi Lengkap<br/>Perawatan Sepatu</h2>
+      <p class="section-sub">Dari cuci biasa hingga restorasi total — kami tangani semua jenis sepatu dengan penuh keahlian dan kehati-hatian.</p>
+    </div>
+
+    <div class="services-grid">
+      <!-- Deep Clean -->
+        <div class="service-card reveal" style="transition-delay:0.05s;">
+        <span class="svc-popular">Terlaris</span>
+        <div class="svc-icon mint" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:28px;height:28px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12 2c3.9 0 7 3.1 7 7 0 2.2-1 4.2-2.6 5.5L15 22l-3-2-3 2 .6-7.5C6 13.2 5 11.2 5 9c0-3.9 3.1-7 7-7Z"/>
+          </svg>
+        </div>
+        <div class="svc-name">Deep Clean</div>
+        <p class="svc-desc">Pembersihan mendalam dari sol hingga tali sepatu menggunakan produk premium bebas bahan keras. Cocok untuk sneakers, kulit, hingga kanvas.</p>
+        <div class="svc-price">Mulai Rp 35.000 <span>/pasang</span></div>
+      </div>
+
+      <!-- Express Wash -->
+      <div class="service-card reveal" style="transition-delay:0.1s;">
+        <div class="svc-icon sky" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:28px;height:28px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M13 2L3 14h8l-1 8 10-12h-8l1-8Z"/>
+          </svg>
+        </div>
+        <div class="svc-name">Express Wash</div>
+        <p class="svc-desc">Selesai dalam 6–12 jam! Layanan kilat untuk kamu yang butuh sepatu bersih segera. Hasil tetap bersih dan rapi, tanpa kompromi kualitas.</p>
+        <div class="svc-price">Mulai Rp 50.000 <span>/pasang</span></div>
+      </div>
+
+      <!-- Unyellowing -->
+      <div class="service-card reveal" style="transition-delay:0.15s;">
+        <div class="svc-icon peach" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:28px;height:28px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12 2l1.2 5.2L18 9l-4.8 1.8L12 16l-1.2-5.2L6 9l4.8-1.8L12 2Zm7 10 0 0Z"/>
+            <path fill="currentColor" opacity="0.6" d="M4 14l.8 3.4L8 18l-3.2.6L4 22l-.8-3.4L0 18l3.2-.6L4 14Z"/>
+          </svg>
+        </div>
+        <div class="svc-name">Unyellowing</div>
+        <p class="svc-desc">Kembalikan sol putih ke warna aslinya! Proses pemutihan sol yang menguning secara alami atau akibat usia, menggunakan formula khusus aman.</p>
+        <div class="svc-price">Mulai Rp 45.000 <span>/pasang</span></div>
+      </div>
+
+      <!-- Repaint / Treatment -->
+      <div class="service-card reveal" style="transition-delay:0.2s;">
+        <div class="svc-icon lav" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:28px;height:28px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12 2c4.4 0 8 3.6 8 8 0 4.4-3.6 8-8 8-4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8Zm-3 7a1.2 1.2 0 1 0 0 2.4A1.2 1.2 0 0 0 9 9Zm6 0a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM12 12.2c-1 0-1.8.8-1.8 1.8S11 16 12 16s1.8-.8 1.8-1.8S13 12.2 12 12.2Z"/>
+          </svg>
+        </div>
+        <div class="svc-name">Repaint & Treatment</div>
+        <p class="svc-desc">Restorasi warna sepatu yang pudar, goresan, atau kusam. Dilakukan oleh tenaga ahli dengan cat & finishing premium agar sepatu tampak baru.</p>
+        <div class="svc-price">Mulai Rp 100.000 <span>/pasang</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     KEUNGGULAN SECTION
+=========================== -->
+<section id="keunggulan">
+  <div class="container">
+    <div class="keunggulan-inner">
+      <!-- Left: Visual card -->
+      <div class="keunggulan-visual reveal">
+        <div class="keunggulan-card">
+          <span class="kv-emoji" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:56px;height:56px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M7 2h10v2h2a1 1 0 0 1 1 1v2c0 3.3-2.4 6-5.5 6.3V16H17v2H7v-2h2.5v-2.7C6.4 13 4 10.3 4 7V5a1 1 0 0 1 1-1h2V2Zm-1 5c0 2.8 2.2 5 5 5s5-2.2 5-5V6H6v1Z"/>
+              <path fill="currentColor" opacity="0.45" d="M9 21h6v1H9v-1Z"/>
+            </svg>
+          </span>
+          <h3>Mengapa Pilih ShoeBloom Care?</h3>
+          <p>Kami bukan sekadar jasa cuci sepatu biasa. Dengan standar kerja tinggi, produk berkualitas, dan pelayanan penuh hati, setiap sepatu diperlakukan seperti milik sendiri.</p>
+        </div>
+        <div class="kv-float kv-f1">
+          <span class="kf-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M8 2h8v2H8V2Zm-2 6c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V8Zm4 4h4v2h-4v-2Z"/>
+            </svg>
+          </span>
+          <div class="kf-text">
+            <div class="kf-num">100%</div>
+            <div class="kf-sub">Produk aman & premium</div>
+          </div>
+        </div>
+        <div class="kv-float kv-f2">
+          <span class="kf-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M21 8.5 12 3 3 8.5V21h18V8.5ZM12 5l7 3.8-7 3.8-7-3.8L12 5Zm-8 5.3 7 3.9v6.8H4V10.3Zm16 0v10.7h-7v-6.8l7-3.9Z"/>
+            </svg>
+          </span>
+          <div class="kf-text">
+            <div class="kf-num">Free</div>
+            <div class="kf-sub">Jemput & antar kota</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Feature list -->
+      <div class="keunggulan-list reveal" style="transition-delay:0.15s;">
+        <div class="keunggulan-item">
+          <div class="ki-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:24px;height:24px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M9 2h6l-1 5 4 7c1 2-.4 4-2.6 4H8.6C6.4 18 5 16 6 14l4-7-1-5Zm3 9h2l-2 3h-2l2-3Z"/>
+            </svg>
+          </div>
+          <div class="ki-text">
+            <h4>Produk Premium & Aman</h4>
+            <p>Kami hanya menggunakan produk cleaning khusus alas kaki yang lembut di material namun efektif membersihkan noda membandel.</p>
+          </div>
+        </div>
+        <div class="keunggulan-item">
+          <div class="ki-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:24px;height:24px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M5 16l1-6 3-3h6l3 3 1 6h-2a2 2 0 1 1-4 0H11a2 2 0 1 1-4 0H5Zm4-7 1 2h4l1-2H9Z"/>
+            </svg>
+          </div>
+          <div class="ki-text">
+            <h4>Jemput & Antar Gratis</h4>
+            <p>Tidak perlu repot keluar rumah. Tim kami siap menjemput sepatu kamu dan mengantarkan kembali setelah selesai diproses.</p>
+          </div>
+        </div>
+        <div class="keunggulan-item">
+          <div class="ki-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:24px;height:24px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2a10 10 0 1 0 .01 0ZM11 6h2v6l4 2-1 1-5-2V6Z"/>
+            </svg>
+          </div>
+          <div class="ki-text">
+            <h4>Pengerjaan Tepat Waktu</h4>
+            <p>Estimasi waktu yang jelas dari awal. Tidak ada penundaan tanpa konfirmasi — transparansi adalah prioritas kami.</p>
+          </div>
+        </div>
+        <div class="keunggulan-item">
+          <div class="ki-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:24px;height:24px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M17 9V7a5 5 0 0 0-10 0v2H5v13h14V9h-2Zm-8 0V7a3 3 0 0 1 6 0v2H9Zm3 5a2 2 0 1 1-2 2c0-1.1.9-2 2-2Z"/>
+            </svg>
+          </div>
+          <div class="ki-text">
+            <h4>Garansi Kepuasan</h4>
+            <p>Jika hasilnya tidak sesuai ekspektasi, kami siap revisi tanpa biaya tambahan. Kepuasanmu adalah standar kami.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     PROMO / PENAWARAN SECTION
+=========================== -->
+<section id="penawaran">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Penawaran Spesial</span>
+      <h2 class="section-title">Hemat Lebih Banyak<br/>dengan Promo Kami</h2>
+      <p class="section-sub">Jangan lewatkan penawaran eksklusif yang kami siapkan. Waktu terbatas, keuntungan nyata.</p>
+    </div>
+
+    <div class="promo-cards">
+      <!-- Promo 1: Featured -->
+      <div class="promo-card featured reveal" style="transition-delay:0.05s;">
+        <span class="pc-tag">Pelanggan Baru</span>
+        <div class="pc-discount">20%</div>
+        <div class="pc-title">Diskon Selamat Datang</div>
+        <p class="pc-desc">Khusus untuk kamu yang pertama kali menggunakan ShoeBloom Care. Dapatkan diskon 20% untuk semua layanan tanpa minimum order.</p>
+        <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20pelanggan%20baru%20dan%20ingin%20klaim%20diskon%2020%25" target="_blank" class="pc-cta">Klaim Sekarang →</a>
+        <div class="pc-deco" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:64px;height:64px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M3 3h6l-2 4 6 2-4 6 5 2-2 4-6-2 2-4-6-2 4-6-2-4Z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Promo 2 -->
+      <div class="promo-card light-mint reveal" style="transition-delay:0.1s;">
+        <span class="pc-tag">Weekend Special</span>
+        <div class="pc-discount">2+1</div>
+        <div class="pc-title">Promo Sabtu–Minggu</div>
+        <p class="pc-desc">Cuci 2 pasang sepatu, pasang ke-3 GRATIS! Berlaku setiap Sabtu dan Minggu untuk layanan Deep Clean & Express Wash.</p>
+        <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20info%20promo%20weekend" target="_blank" class="pc-cta">Info Selengkapnya</a>
+        <div class="pc-deco" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:64px;height:64px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M20 7H4v4h16V7Zm-8 4v11h-3V11h3Zm3 0v11h-3V11h3Zm-9-7h14l-2 2H6L4 4h6-6Zm1 0c0-1.1.9-2 2-2 1.1 0 2 .9 2 2v1H5V4Zm9 0V3h4v1h-4Z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Promo 3 -->
+      <div class="promo-card light-sky reveal" style="transition-delay:0.15s;">
+        <span class="pc-tag">Bundle Hemat</span>
+        <div class="pc-discount">30%</div>
+        <div class="pc-title">Paket Family Bundle</div>
+        <p class="pc-desc">Minimal 5 pasang sepatu sekaligus? Hemat hingga 30%! Cocok untuk keluarga atau komunitas. Pengerjaan selesai dalam 2–3 hari.</p>
+        <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20pesan%20paket%20bundle" target="_blank" class="pc-cta">Pesan Bundle</a>
+        <div class="pc-deco" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:64px;height:64px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm-7 9a7 7 0 0 1 14 0H5Zm17-10h-2a4 4 0 0 0-1-2h3v2Z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     PROSES SECTION
+=========================== -->
+<section id="proses">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center;">
+      <span class="section-label">Alur Kerja</span>
+      <h2 class="section-title">Proses Mudah,<br/>Hasil Memuaskan</h2>
+      <p class="section-sub" style="margin:0 auto;">Cukup 5 langkah mudah, sepatumu kembali bersih dan siap dipakai.</p>
+    </div>
+
+    <div class="proses-steps">
+      <div class="proses-step reveal" style="transition-delay:0.05s;">
+        <div class="ps-circle" style="position:relative;">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+              <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+            </svg>
+          </span>
+          <span class="ps-num">1</span>
+        </div>
+        <div class="ps-title">Chat & Order</div>
+        <p class="ps-desc">Hubungi kami via WhatsApp, ceritakan kondisi sepatu & pilih layanan yang sesuai.</p>
+      </div>
+
+      <div class="proses-step reveal" style="transition-delay:0.1s;">
+        <div class="ps-circle" style="position:relative;">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M5 16l1-6 3-3h6l3 3 1 6h-2a2 2 0 1 1-4 0H11a2 2 0 1 1-4 0H5Zm4-7 1 2h4l1-2H9Z"/>
+            </svg>
+          </span>
+          <span class="ps-num">2</span>
+        </div>
+        <div class="ps-title">Penjemputan</div>
+        <p class="ps-desc">Tim kami menjemput sepatu langsung dari rumahmu, gratis tanpa minimal order.</p>
+      </div>
+
+      <div class="proses-step reveal" style="transition-delay:0.15s;">
+        <div class="ps-circle" style="position:relative;">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M10 2a8 8 0 1 0 5.3 14l4.2 4.2 1.5-1.5-4.2-4.2A8 8 0 0 0 10 2Zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12Z"/>
+            </svg>
+          </span>
+          <span class="ps-num">3</span>
+        </div>
+        <div class="ps-title">Pemeriksaan</div>
+        <p class="ps-desc">Sepatu diperiksa kondisinya, kami informasikan temuan dan estimasi selesai.</p>
+      </div>
+
+      <div class="proses-step reveal" style="transition-delay:0.2s;">
+        <div class="ps-circle" style="position:relative;">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2l1.2 5.2L18 9l-4.8 1.8L12 16l-1.2-5.2L6 9l4.8-1.8L12 2Z"/>
+              <path fill="currentColor" opacity="0.6" d="M4 14l.8 3.4L8 18l-3.2.6L4 22l-.8-3.4L0 18l3.2-.6L4 14Z"/>
+            </svg>
+          </span>
+          <span class="ps-num">4</span>
+        </div>
+        <div class="ps-title">Pengerjaan</div>
+        <p class="ps-desc">Proses cleaning profesional dilakukan oleh tenaga ahli berpengalaman kami.</p>
+      </div>
+
+      <div class="proses-step reveal" style="transition-delay:0.25s;">
+        <div class="ps-circle" style="position:relative;">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:26px;height:26px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M21 8.5 12 3 3 8.5V21h18V8.5ZM12 5l7 3.8-7 3.8-7-3.8L12 5Zm-8 5.3 7 3.9v6.8H4V10.3Zm16 0v10.7h-7v-6.8l7-3.9Z"/>
+            </svg>
+          </span>
+          <span class="ps-num">5</span>
+        </div>
+        <div class="ps-title">Pengiriman</div>
+        <p class="ps-desc">Sepatu bersih dikemas rapi dan diantar kembali ke tanganmu. Siap dipakai!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     PRICING SECTION
+=========================== -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center;">
+      <span class="section-label">Paket Harga</span>
+      <h2 class="section-title">Harga Transparan,<br/>Tanpa Biaya Tersembunyi</h2>
+      <p class="section-sub" style="margin:0 auto;">Pilih paket yang paling sesuai dengan kebutuhan dan kondisi sepatumu.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Basic -->
+      <div class="pricing-card reveal" style="transition-delay:0.05s;">
+        <div class="plan-name">Paket Basic</div>
+        <div class="plan-price">
+          <span class="currency">Rp</span> 35k
+          <span class="period"> / pasang</span>
+        </div>
+        <p class="plan-desc">Untuk sepatu harian dengan kotoran ringan–sedang. Pengerjaan 1–2 hari.</p>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Cuci upper & sol luar</li>
+          <li><span class="check">✓</span> Pembersihan tali</li>
+          <li><span class="check">✓</span> Jemput & antar gratis</li>
+          <li><span class="check">✓</span> Pengeringan angin</li>
+          <li><span class="cross">✕</span> Unyellowing sol</li>
+          <li><span class="cross">✕</span> Deodorizer interior</li>
+        </ul>
+        <a href="https://wa.me/628123456789?text=Halo,%20saya%20ingin%20pesan%20Paket%20Basic" target="_blank" class="btn btn-outline" style="width:100%;justify-content:center;">Pilih Paket Ini</a>
+      </div>
+
+      <!-- Pro (popular) -->
+      <div class="pricing-card popular reveal" style="transition-delay:0.1s;">
+        <div class="popular-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:16px;height:16px;margin-right:8px;" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M12 2l2.9 6.6L22 9.3l-5 4.6 1.5 7-6.5-3.8-6.5 3.8 1.5-7-5-4.6 7.1-.7L12 2Z"/>
+          </svg>
+          Paling Populer
+        </div>
+        <div class="plan-name">Paket Pro</div>
+        <div class="plan-price">
+          <span class="currency">Rp</span> 75k
+          <span class="period"> / pasang</span>
+        </div>
+        <p class="plan-desc">Perawatan lengkap untuk sneakers, kulit, maupun kanvas. Pengerjaan 1–2 hari.</p>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Deep clean menyeluruh</li>
+          <li><span class="check">✓</span> Unyellowing sol</li>
+          <li><span class="check">✓</span> Pembersihan interior</li>
+          <li><span class="check">✓</span> Deodorizer & anti-bau</li>
+          <li><span class="check">✓</span> Jemput & antar gratis</li>
+          <li><span class="check">✓</span> Pengeringan UV</li>
+        </ul>
+        <a href="https://wa.me/628123456789?text=Halo,%20saya%20ingin%20pesan%20Paket%20Pro" target="_blank" class="btn btn-primary" style="width:100%;justify-content:center;">Pilih Paket Ini</a>
+      </div>
+
+      <!-- Premium -->
+      <div class="pricing-card reveal" style="transition-delay:0.15s;">
+        <div class="plan-name">Paket Premium</div>
+        <div class="plan-price">
+          <span class="currency">Rp</span> 150k
+          <span class="period"> / pasang</span>
+        </div>
+        <p class="plan-desc">Restorasi total untuk sepatu mewah, koleksi, atau kondisi sangat kotor. Pengerjaan 2–3 hari.</p>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Semua layanan Paket Pro</li>
+          <li><span class="check">✓</span> Repaint & touch-up warna</li>
+          <li><span class="check">✓</span> Kondisioner kulit (leather)</li>
+          <li><span class="check">✓</span> Water repellent coating</li>
+          <li><span class="check">✓</span> Foto before–after</li>
+          <li><span class="check">✓</span> Garansi kepuasan penuh</li>
+        </ul>
+        <a href="https://wa.me/628123456789?text=Halo,%20saya%20ingin%20pesan%20Paket%20Premium" target="_blank" class="btn btn-sky" style="width:100%;justify-content:center;">Pilih Paket Ini</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     TESTIMONI SECTION
+=========================== -->
+<section id="testimoni">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center;">
+      <span class="section-label">Testimoni</span>
+      <h2 class="section-title">Ribuan Pelanggan<br/>Sudah Puas</h2>
+      <p class="section-sub" style="margin:0 auto;">Jangan hanya percaya kata kami — inilah yang dikatakan pelanggan setia ShoeBloom Care.</p>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-card reveal" style="transition-delay:0.05s;">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">Udah nyoba beberapa tempat cuci sepatu tapi belum ada yang bisa ngilangin noda membandel di Air Force 1 putihku. ShoeBloom Care berhasil dalam sekali cuci! Putihnya balik kayak baru lagi.</p>
+        <div class="testi-author">
+          <div class="testi-avatar ta-green" aria-hidden="true">R</div>
+          <div>
+            <div class="testi-name">Rizky Pratama</div>
+            <div class="testi-role">Pelanggan Tetap • Jakarta</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal" style="transition-delay:0.1s;">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">Pelayanannya ramah banget, responsif, dan tepat waktu. Sepatuku dijemput sore, besok paginya udah diantar balik dalam kondisi bersih dan wangi. Recommended 100%!</p>
+        <div class="testi-author">
+          <div class="testi-avatar ta-sky" aria-hidden="true">N</div>
+          <div>
+            <div class="testi-name">Nadya Sari</div>
+            <div class="testi-role">Pelanggan Baru • Bekasi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal" style="transition-delay:0.15s;">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">Koleksi Nike lama saya yang udah kusam warnanya direpaint di sini. Hasilnya luar biasa, warnanya rata dan glossy, mirip beli baru. Harganya pun masuk akal banget!</p>
+        <div class="testi-author">
+          <div class="testi-avatar ta-peach" aria-hidden="true">B</div>
+          <div>
+            <div class="testi-name">Budi Santoso</div>
+            <div class="testi-role">Kolektor Sneaker • Depok</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     FAQ SECTION
+=========================== -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-inner">
+      <!-- Left -->
+      <div class="faq-left reveal">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Pertanyaan yang Sering Ditanyakan</h2>
+        <p class="section-sub">Tidak menemukan jawaban yang kamu cari? Hubungi kami langsung — tim kami siap membantu 7 hari seminggu.</p>
+        <div class="faq-contact-box">
+          <p>Punya pertanyaan lain? Chat langsung dengan tim kami via WhatsApp, kami responsif dalam hitungan menit!</p>
+          <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20punya%20pertanyaan" target="_blank" class="btn btn-wa">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" focusable="false" style="width:18px;height:18px;">
+              <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+              <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+            </svg>
+            Chat Sekarang
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: FAQ accordion -->
+      <div class="faq-list reveal" style="transition-delay:0.15s;">
+        <div class="faq-item">
+          <button class="faq-question">
+            Berapa lama proses pengerjaan? <span class="fq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Untuk layanan standar biasanya 1–2 hari kerja. Express Wash selesai dalam 6–12 jam. Paket Premium membutuhkan 2–3 hari karena proses lebih detail. Kami akan selalu konfirmasi estimasi di awal.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Apakah semua jenis sepatu bisa dicuci? <span class="fq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Ya! Kami menangani sneakers, sepatu kulit, kanvas, suede, hingga boots. Setiap material diperlakukan dengan teknik dan produk yang tepat untuk menjaga kualitas dan bentuknya.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Bagaimana jika sepatu saya rusak saat proses? <span class="fq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Sangat jarang terjadi karena kami sangat berhati-hati. Namun jika ada kerusakan yang disebabkan oleh kami, kami bertanggung jawab penuh dan akan memberikan kompensasi yang sesuai.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Apakah ada biaya jemput & antar? <span class="fq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Jemput dan antar GRATIS untuk area dalam kota. Untuk area luar kota atau jangkauan lebih dari 20 km, mungkin ada biaya ongkir yang akan diinformasikan sebelum konfirmasi order.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Metode pembayaran apa saja yang diterima? <span class="fq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Kami menerima transfer bank (BCA, Mandiri, BRI), dompet digital (GoPay, OVO, Dana, ShopeePay), QRIS, dan tunai. Pembayaran bisa dilakukan saat penjemputan atau pengiriman kembali.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Bagaimana cara tracking status pengerjaan? <span class="fq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Kami akan mengirim update foto via WhatsApp mulai dari sebelum (before), proses, hingga sesudah (after). Kamu bisa tanya status kapan saja dan tim kami akan segera merespons.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     CTA BOTTOM
+=========================== -->
+<section id="cta-bottom">
+  <div class="container">
+    <div class="cta-bottom-inner reveal">
+      <span class="section-label">Mulai Sekarang</span>
+      <h2 class="section-title">Sepatumu Layak Mendapat<br/>Perawatan Terbaik</h2>
+      <p class="section-sub">Jangan biarkan sepatu favoritmu kusam dan kotor. Percayakan pada ShoeBloom Care — perawatan profesional, harga terjangkau, hasil nyata.</p>
+      <div class="cta-bottom-btns">
+          <a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20mulai%20pesan%20jasa%20cuci%20sepatu" target="_blank" class="btn btn-white">
+          <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" focusable="false" style="width:18px;height:18px;">
+            <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+            <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+          </svg>
+          Pesan via WhatsApp Sekarang
+        </a>
+        <a href="#layanan" class="btn btn-ghost-white">
+          Lihat Semua Layanan →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <span class="logo-text">ShoeBloom <span>Care</span></span>
+        <p>Jasa perawatan sepatu profesional dengan sentuhan premium. Kami hadir untuk menjaga sepatu kesayanganmu selalu bersih, segar, dan terawat.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram" aria-hidden="true">
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;" class="icon-svg" focusable="false" aria-hidden="true">
+              <path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm6-1.5a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Z"/>
+              <path fill="currentColor" d="M12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="TikTok" aria-hidden="true">
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;" class="icon-svg" focusable="false" aria-hidden="true">
+              <path fill="currentColor" d="M14 3v12.1a3.9 3.9 0 1 1-3-3.8V8a7 7 0 0 0 7 7V8.5a7 7 0 0 1-4-5.5Z"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/628123456789" target="_blank" class="social-link" aria-label="WhatsApp" aria-hidden="true">
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;" class="icon-svg" focusable="false" aria-hidden="true">
+              <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+              <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook" aria-hidden="true">
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;" class="icon-svg" focusable="false" aria-hidden="true">
+              <path fill="currentColor" d="M13 22v-9h3l1-4h-4V7c0-1.1.3-2 2-2h2V1h-3c-4 0-6 2.2-6 6v2H5v4h3v9h5Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="footer-col">
+        <h5>Layanan</h5>
+        <ul>
+          <li><a href="#layanan">Deep Clean</a></li>
+          <li><a href="#layanan">Express Wash</a></li>
+          <li><a href="#layanan">Unyellowing</a></li>
+          <li><a href="#layanan">Repaint & Treatment</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Informasi</h5>
+        <ul>
+          <li><a href="#proses">Cara Kerja</a></li>
+          <li><a href="#pricing">Paket Harga</a></li>
+          <li><a href="#penawaran">Promo & Diskon</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h5>Hubungi Kami</h5>
+        <div class="footer-contact-item">
+          <span class="fci-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-svg" style="width:18px;height:18px;" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+              <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+            </svg>
+          </span>
+          <div class="fci-text">
+            <a href="https://wa.me/628123456789" target="_blank" style="color:var(--mint);font-weight:600;">+62 812-3456-789</a><br/>
+            <span style="font-size:12px;">Senin–Minggu, 07.00–21.00 WIB</span>
+          </div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="fci-icon">📧</span>
+          <div class="fci-text">hello@shoebloomcare.id</div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="fci-icon">📍</span>
+          <div class="fci-text">Jl. Melati No. 12, Kota Indah<br/>Jawa Barat, Indonesia</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span class="heart" aria-hidden="true">
+        <svg viewBox="0 0 24 24" class="icon-svg" style="width:16px;height:16px;" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M12 21s-7-4.6-9.3-8.5C.4 9 .9 5.9 3.6 4.4c2.1-1.2 4.3-.5 5.6 1.1C10.5 3.9 12.7 3.2 14.8 4.4c2.7 1.5 3.2 4.6 .9 8.1C19 16.4 12 21 12 21z"/>
+        </svg>
+      </span>
+      <div class="footer-badges">
+        <span class="fb-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:14px;height:14px;margin-right:8px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12 2l2.9 6.6L22 9.3l-5 4.6 1.5 7-6.5-3.8-6.5 3.8 1.5-7-5-4.6 7.1-.7L12 2Z"/>
+          </svg>
+          4.9/5 Rating
+        </span>
+        <span class="fb-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:14px;height:14px;margin-right:8px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M17 9V7a5 5 0 0 0-10 0v2H5v13h14V9h-2Zm-8 0V7a3 3 0 0 1 6 0v2H9Zm3 5a2 2 0 1 1-2 2c0-1.1.9-2 2-2Z"/>
+          </svg>
+          Terpercaya
+        </span>
+        <span class="fb-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-svg" style="width:14px;height:14px;margin-right:8px;" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M21 8.5 12 3 3 8.5V21h18V8.5ZM12 5l7 3.8-7 3.8-7-3.8L12 5Zm-8 5.3 7 3.9v6.8H4V10.3Zm16 0v10.7h-7v-6.8l7-3.9Z"/>
+          </svg>
+          Antar Gratis
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a href="https://wa.me/628123456789?text=Halo%20ShoeBloom%20Care,%20saya%20ingin%20tanya%20tentang%20jasa%20cuci%20sepatu" target="_blank" class="wa-float" aria-label="Chat WhatsApp">
+  <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" focusable="false" style="width:28px;height:28px;">
+    <path fill="currentColor" d="M12 2a10 10 0 0 0-8.47 15.38L2.5 22l4.75-1.03A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-3.98-1.05l-.28-.17-2.7.58.58-2.73-.18-.28A8 8 0 1 1 12 20Z"/>
+    <path fill="currentColor" d="M9.2 8.7c.3-.3.6-.2.8-.1l.7.3c.2.1.3.2.4.4.1.2 0 .4-.1.6l-.3.6c-.1.2-.1.4 0 .6.4.8 1.2 1.6 2.1 2.1.2.1.4.1.6 0l.6-.3c.2-.1.4-.2.6-.1.2.1.3.2.4.4l.3.7c.1.2.2.5-.1.8-.3.3-.9.7-1.7.6-1.1-.1-2.4-.8-3.7-2.1-1.3-1.3-2-2.6-2.1-3.7-.1-.8.3-1.4.6-1.7Z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
